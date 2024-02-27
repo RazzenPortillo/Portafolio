@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    transition: background-color 0.5s ease;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#toggle-theme {
+    float: right;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* Estilos adicionales para proyectos, sobre mí, contacto, etc. */
+
+/* Estilos para modo nocturno */
+.dark-mode {
+    background-color: #202020;
+    color: #eee;
+}
+
+.dark-mode header {
+    background-color: #1d1d1d;
+    color: #eee;
+}
+
+
+
+#translate-text {
+    text-align: center; /* Alinea el texto al centro */
+}
+
+#google_translate_element {
+    position: fixed; /* Para fijar el traductor en una posición específica */
+    top: px; /* Ajusta la distancia desde la parte superior de la ventana del navegador */
+    right: 20px; /* Ajusta la distancia desde el borde derecho de la ventana del navegador */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0DCAF0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0DCAF0;
+    text-decoration: none;
+    margin: 30px 15px 30px 0 ;
+    transition: .5s ease;
+  }
+   
+  .social-media a:hover {
+    background: #0DCAF0;
+    color: #1f242d;
+    box-shadow: 0 0 20px #0DCAF0;
+  }
+
+  .carousel-item img {
+    width: 80%; /* Ancho de la imagen */
+    height: auto; /* Altura ajustada automáticamente */
+}
+
+.card-header {
+    font-size: 30px; /* Cambia el tamaño de la fuente según lo necesites */
+}
+
+#carouselExampleDark {
+    max-width: 600px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+.carousel-item img {
+    max-height: 300px; /* Altura máxima de las imágenes */
+    width: auto; /* Ancho automático para mantener la proporción de aspecto original */
+}
+
+#carouselExampleDark {
+    max-width: 600px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+.carousel-item img {
+    max-height: 300px; /* Altura máxima de las imágenes */
+    width: auto; /* Ancho automático para mantener la proporción de aspecto original */
+}
+
+/* Agregar espacio entre secciones */
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilo para la sección de proyectos */
+#proyectos {
+    background-color: transparent;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+/* Estilo para la sección de lenguajes */
+#languages {
+    background-color: transparent;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+/* Estilo para la sección de redes sociales */
+footer.social-media {
+    margin-top: 200px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
+#logo {
+    max-width:350px; /* Ancho máximo */
+    max-height: 350px; /* Altura máxima */
+}
+#hero {
+    background-image: url('/images/Trabajont.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* La imagen de fondo cubrirá todo el tamaño de la sección */
+    background-position: center; /* La imagen de fondo estará centrada */
+    color: #ffffff; /* Color del texto para contrastar con el fondo */
+    padding: 150px;
+}
+
+#languages {
+    background-image: url('/images/Atardecer.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen de fondo cubrirá todo el tamaño del section */
+    background-position: bottom center; /* La imagen de fondo estará centrada en la parte inferior */
+    color: rgb(255, 255, 255); /* Color del texto para contrastar con el fondo */
+    padding: 230px; /* Ajusta el relleno según sea necesario */
+}
+
+
+
+header {
+    position: fixed; /* Hace que el header se mantenga fijo en la parte superior */
+    top: 0; /* Lo coloca en la parte superior */
+    width: 100%; /* Ocupa el ancho completo de la pantalla */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    background-color: white; /* Fondo blanco para la barra de navegación */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+header nav {
+    height: 10px; /* Altura de la barra de navegación */
+}
+
+header nav ul {
+    padding-top: 0px; /* Ajusta el espacio superior para centrar los botones verticalmente */
+}
+
+header nav ul a {
+    font-size: 16px; /* Tamaño del texto de los botones */
+    padding: 10px 15px; /* Ajusta el espaciado interior de los botones */
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s;
+}
+
+#navbar.hidden {
+    top: -50px; /* Altura de la barra de navegación cuando está oculta */
+}
+
+/* Estilos para el navbar en modo oscuro */
+.dark-mode #navbar {
+    background-color: #1d1d1d;
+    color: #eee;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    background-color: #3f3f3f;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #555;
+}
+
+#Bio {
+    text-align: center; /* Centra el texto */
+}
+
+#Bio .card-body {
+    max-width: 1250px; /* Limita el ancho del contenedor del texto */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    text-align: justify; /* Justifica el texto wuo*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
