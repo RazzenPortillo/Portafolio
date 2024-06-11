@@ -14,7 +14,10 @@
                 <a href="#" class="btn btn-outline-info">Inicio</a>
                 <a href="#Bio" class="btn btn-outline-info">Sobre mi</a>
                 <a href="#proyectos" class="btn btn-outline-info">Proyectos</a>
+                <a href="#Certificados" class="btn btn-outline-info">Certificados y Diplomas</a>
+                <a href="#Intereses" class="btn btn-outline-info">Intereses</a>
                 <a href="#Contacto" class="btn btn-outline-info">Contactos</a>
+                <a href="#Testimonios" class="btn btn-outline-info">Testimonios</a>
                 <li id="toggle-theme">Modo Nocturno</li>
             </ul>
             <li id="translate-text">
@@ -26,7 +29,7 @@
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'es',
-                includedLanguages: 'en,fr,de,ja,ko,ar,ta,', // Lista de idiomas incluidos
+                includedLanguages: 'en,es,fr,de,ja,ko,ar,ta,', // Lista de idiomas incluidos
                 layout: google.translate.TranslateElement.InlineLayout.SIMPLE
             }, 'google_translate_element');
         }
@@ -54,19 +57,19 @@
                 Acerca de mí
             </div>
             <div class="card-body text-center">
-                <h5 class="card-title">"En el universo de la programación, cada línea de código es una melodía, y como en K-On!, juntos creamos una armonía digital que resuena en cada proyecto."</h5>
-                <p class="card-text">Me llamo Miguel Portillo y tengo <span id="edad-span"></span> años. Soy un estudiante de Gerardo Barrios en Usulután con una pasión por la programación y el anime. Me encanta sumergirme en el mundo de la tecnología, explorando diferentes lenguajes de programación y desarrollando proyectos creativos. Al mismo tiempo, disfruto de sumergirme en las emocionantes historias y los vibrantes mundos del anime, donde encuentro inspiración y entretenimiento. Mi curiosidad y dedicación me impulsan a aprender continuamente, tanto en el ámbito técnico como en el creativo, mientras busco aprovechar al máximo mis intereses y habilidades.</p>
-                <a href="https://drive.google.com/file/d/1HL6gakcKeWAlKDHRTZoMUrfKmypJzG7n/view?usp=sharing" class="btn btn-primary">Descargar CV</a>
+                <!--<h5 class="card-title">"En el universo de la programación, cada línea de código es una melodía, y como en K-On!, juntos creamos una armonía digital que resuena en cada proyecto."</h5>-->
+                <p class="card-text">Me llamo Miguel Portillo y tengo <span id="edad-span"></span> años. Soy un estudiante de Gerardo Barrios en Usulután con una pasión por la programación y el anime. Me encanta sumergirme en el mundo de la tecnología, explorando diferentes lenguajes de programación y desarrollando proyectos creativos. Al mismo tiempo, disfruto de sumergirme en las emocionantes historias y los maravillosos mundos del anime, donde encuentro inspiración y entretenimiento. Mi curiosidad y dedicación me impulsan a aprender continuamente, tanto en el ámbito técnico como en el creativo, mientras busco aprovechar al máximo mis intereses y habilidades.</p>
+                <a href="https://drive.google.com/file/d/1qE1OOcc6CoRb70L3zFubbf8l1F9RXpsh/view?usp=sharing" class="btn btn-primary">Descargar CV</a>
             </div>
         </div>
     </section>
 
-    <section id="proyectos" class="text-center mt-4 mb-4">
+   <section id="proyectos" class="text-center mt-4 mb-4">
         <h1 id="proyectos">Proyectos</h1>
     
         <div class="container-fluid">
-            <div class="row justify-content-center"> <!-- Centrar las filas -->
-                <div class="col-md-4 mb-4"> <!-- Agrega margen inferior aquí -->
+            <div class="row justify-content-center"> 
+                <div class="col-md-4 mb-4"> 
                     <div class="card-fluid slider-wrapper row col-sm bg-transparent">
                         <img src="./images/ReservaFacil.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -78,7 +81,7 @@
                     </div>
                 </div>
     
-                <div class="col-md-4 mb-4"> <!-- Agrega margen inferior aquí -->
+                <div class="col-md-4 mb-4"> 
                     <div class="card-fluid slider-wrapper row col-sm bg-transparent">
                         <img src="./images/TheGlamApp.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -92,9 +95,35 @@
             </div>
         </div>
     </section>
+        <section class="text-center my-4" id="Certificados">
+            <h2>Certificados y Diplomas</h2>
+            <div id="carouselExampleIndicators" class="carousel slide mx-auto" style="max-width: 800px;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/Diploma.png" class="d-block w-100" alt="Diploma">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Diploma 2.png" class="d-block w-100" alt="Certificado 1">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+    </section>
 
     <section id="languages" style="text-align: center;" class="video-bg">
-        <!-- Contenido de la sección de lenguajes yeii -->
         <h1 id="proyectos">Lenguajes</h1>
         <i class='bx bxl-html5' style='font-size: 5.5rem;'></i>
         <i class='bx bxl-php' style='font-size: 5.5rem;'></i>
@@ -102,14 +131,87 @@
         <i class='bx bxl-css3' style='font-size: 5.5rem;'></i>
         <i class='bx bxl-javascript' style='font-size: 5.5rem;'></i>
     </section>
-    
-  
 
+    <section>
+        <div class="container" id="Intereses">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="section-title">intereses</h2> 
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card-fluid slider-wrapper row col-sm bg-transparent">
+                        <img src="./images/Redes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Redes</h5>
+                            <p class="card-text">encuentro fascinante de las redes informáticas es su capacidad para conectar dispositivos y sistemas en todo el mundo, permitiendo la transferencia rápida de datos y facilitando la comunicación entre personas y máquinas.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card-fluid slider-wrapper row col-sm bg-transparent">
+                        <img src="./images/Robotica.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Robotica</h5>
+                            <p class="card-text">Lo que más me gusta de la robótica es su potencial para transformar diversos aspectos de nuestra vida cotidiana y mejorar la sociedad en general.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card-fluid slider-wrapper row col-sm bg-transparent">
+                        <img src="./images/Anime.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">El  Mundo del Anime</h5>
+                            <p class="card-text">Lo que mas me gusta de el mundo del anime es lo facil que puedes conectar con algunas series, lo fascinantes que son sus historias, te hacen, reir o llorar, la importancia del pasado presento o futuro, valorar tus amistades como tu familia, y que el tiempo no espera.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card-fluid slider-wrapper row col-sm bg-transparent">
+                        <img src="./images/J-pop.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">J-POP</h5>
+                            <p class="card-text">La musica de este genero es tan pegadisa y atractiva, tienen letras raras y mensajes emocionales.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Testimonios" class="text-center mt-4 mb-4"> 
+        <h1 id="proyectos">Testimonios</h1>
+    
+        <div class="container-fluid">
+            <div class="row justify-content-center"> 
+                <div class="col-md-4 mb-4"> 
+                    <div class="card-fluid slider-wrapper row col-sm bg-transparent">
+                        <div class="card-body">
+                            <h5 class="card-title">Michelle</h5>
+                            <p class="card-text">Es una persona centrada en alcanzar las metas que se propone lo cual se esfuerza mucho en lograr lo que se propone.
+
+                                He tenido la oportunidad de realizar varios trabajos con el en diversas oportunidades donde demuestra una creatividad increíble y a su vez demuestra que puede trabajar en equipo de manera neutra, lo considero una persona eficiente en su labor profesional lo cual conlleva que se recomiende ampliamente para cualquier futuro trabajo y estoy convencido de que su papel en los trabajos es fundamental valioso.</p>
+                            <hr>
+                            <p class="card-text">Facultad: Ingenieria en sistemas y redes informaricas</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    
       <footer id="Contacto" class="social-media" style="text-align: center;">
+        <div class="card-header text-center">
+            Contactos
+        </div>
         <a href="https://www.facebook.com/miguelalonso.portillo/"><i class='bx bxl-facebook'></i></a>
-        <a href=""><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.linkedin.com/in/miguel-portillo-quinteros-2085612b7/"><i class='bx bxl-linkedin' ></i></a>
         <a href="https://www.instagram.com/razzenpq?igsh=ajV1eGNncnc2Y2pt"><i class='bx bxl-instagram' ></i></a>
-        <a href="https://www.miguelalonsoportillo@gmail.com"><i class='bx bxl-gmail'></i></a>
+        <a href="https://www.miguelalonsoportillo@gmail.com"><i class='bx bxl-gmail'></i></a> 
         
 
         <button id="scrollToTopBtn" title="Volver arriba">↑</button>
